@@ -413,10 +413,11 @@ footer {
     gap: 15px;
     justify-content: flex-start;
     align-items: flex-start;
+    width: 100%;
   }
 
-  .button-filter {
-    padding: 2% 5% 2% 2%;
+  .button-filters {
+    width: 88%;
   }
 
   .search-icon {
