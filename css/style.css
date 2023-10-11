@@ -175,7 +175,6 @@ nav ul li:hover {
 
 .button-filters {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   width: 66%;
   padding-left: 1%;
@@ -195,7 +194,6 @@ nav ul li:hover {
   font-weight: bold;
   justify-content: center;
   align-items: center;
-  width: 100%;
   padding: 10px 16px;
   gap: 7px;
 }
@@ -207,6 +205,10 @@ nav ul li:hover {
 .button-filter:hover {
   cursor: pointer;
   background-color: #deebff;
+}
+
+.search-icon i {
+  color: #000000;
 }
 
 /*------- Informations  -------*/
@@ -417,7 +419,7 @@ footer {
   }
 
   .button-filters {
-    width: 88%;
+    width: 80%;
   }
 
   .search-icon {
