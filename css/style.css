@@ -477,6 +477,7 @@ footer {
   }
 
   /**------- Activités - 1024px  -------**/
+
   .container-activites-cards {
     grid-template-columns: repeat(4, 22%);
   }
