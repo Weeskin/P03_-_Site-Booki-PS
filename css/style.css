@@ -638,11 +638,12 @@ footer {
   .hebergements-and-populaires {
     display: flex;
     flex-direction: column-reverse;
+    gap:30px;
   }
 
-.hebergements-and-populaires section {
-  padding: 4%;
-}
+  .hebergements-and-populaires section {
+    padding: 4%;
+  }
 
   .hebergements-and-populaires .populaires {
     display: block;
@@ -719,8 +720,12 @@ footer {
 
   /*------- Activités - 768px -------*/
   .activites {
-    margin-top: 0px;
+    margin: 60px 0px;
     padding: 0% 4%;
+  }
+
+  .activites-title{
+    margin: 20px 0px;
   }
 
   .container-activites-cards {
