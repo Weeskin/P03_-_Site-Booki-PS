@@ -44,7 +44,8 @@ a {
 }
 
 .card {
-  width: auto; /* Remise de width ici car je veux que toutes les cards aient un width responsive */
+  width: auto;
+  /* Remise de width ici car je veux que toutes les cards aient un width responsive */
   background-color: white;
   border-radius: 20px;
   padding: 5px;
@@ -403,7 +404,7 @@ footer {
 
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
-  body{
+  body {
     width: auto;
   }
 
@@ -411,6 +412,7 @@ footer {
   nav {
     width: 27%;
   }
+
   nav ul li {
     padding: 1% 20px;
   }
@@ -459,9 +461,9 @@ footer {
     margin-top: 2%;
   }
 
- .card-content {
+  .card-content {
     padding: 7%;
-}
+  }
 
 
   .populaires {
@@ -511,15 +513,15 @@ footer {
     height: 25%;
     vertical-align: middle;
   }
-  
-  footer{
+
+  footer {
     width: 100%;
   }
 }
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 768px) {
-  body{
+  body {
     margin: 0%;
     padding: 0%;
   }
@@ -631,7 +633,7 @@ footer {
     padding: 0%;
   }
 
-  .informations{
+  .informations {
     margin: 8% 0%;
   }
 
@@ -639,7 +641,7 @@ footer {
   .hebergements-and-populaires {
     display: flex;
     flex-direction: column-reverse;
-    gap:30px;
+    gap: 30px;
   }
 
   .hebergements-and-populaires section {
@@ -715,7 +717,7 @@ footer {
     justify-content: space-between;
   }
 
-  #text{
+  #text {
     padding-top: 2%;
   }
 
@@ -725,7 +727,7 @@ footer {
     padding: 0% 4%;
   }
 
-  .activites-title{
+  .activites-title {
     margin: 20px 0px;
   }
 
