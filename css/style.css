@@ -76,11 +76,11 @@ header {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 2%;
-  padding-top: 1%;
 }
 
 .logo {
   width: 62px;
+  padding-top: 8px;
 }
 
 nav {
@@ -98,7 +98,7 @@ nav ul {
 }
 
 nav ul li {
-  padding-top: 3%;
+  padding-top: 8px;
 }
 
 nav ul li a {
