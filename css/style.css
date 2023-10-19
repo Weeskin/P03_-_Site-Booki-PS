@@ -1,7 +1,6 @@
 /*------- General  -------*/
 * {
   font-family: "Raleway", sans-serif;
-  /* Remise à zéro de la page pour que ça soit plus fluide*/
   list-style: none;
   text-decoration: none;
   scroll-behavior: smooth;
@@ -45,7 +44,6 @@ a {
 
 .card {
   width: auto;
-  /* Remise de width ici car je veux que toutes les cards aient un width responsive */
   background-color: white;
   border-radius: 20px;
   padding: 5px;
