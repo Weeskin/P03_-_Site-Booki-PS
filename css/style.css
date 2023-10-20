@@ -28,7 +28,7 @@ body {
   width: auto;
   max-width: 1440px;
   margin: auto;
-  padding: 16px 32px;
+  padding: 0px 32px;
   box-sizing: border-box;
 }
 
@@ -112,7 +112,7 @@ nav ul li:hover {
 .top-container {
   display: flex;
   flex-direction: column;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .top-container h2 {
@@ -122,12 +122,14 @@ nav ul li:hover {
 /*------- Search bar  -------*/
 .search-bar {
   display: flex;
-  margin: 3% 1%;
+  height: 49px;
+  margin: 36px 0px;
 }
 
 .search-icon {
   display: flex;
-  width: 4%;
+  width: 50px;
+  height: 49px;
   background-color: #d9d9d9;
   border-radius: 15px 0px 0px 15px;
   align-items: center;
@@ -403,6 +405,7 @@ footer {
 
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+
   /*------- Header - 1024px -------*/
   nav {
     width: 27%;
@@ -413,6 +416,14 @@ footer {
   }
 
   /*------- Top Container - 1024px  -------*/
+  .search-bar {
+    margin: 36px 0px;
+  }
+
+  .search-button {
+    padding: 1.5%;
+  }
+
   .filter {
     display: flex;
     flex-direction: column;
@@ -427,15 +438,6 @@ footer {
     height: 45px;
     padding: 0%;
     margin: 0%;
-  }
-
-  .search-icon {
-    width: 6%;
-    color: #000000;
-  }
-
-  .search-button {
-    padding: 1.5%;
   }
 
   .informations {
@@ -559,10 +561,13 @@ footer {
   /*------- Top Container - 768px -------*/
   .top-container {
     padding: 0% 5%;
-    margin-top: 0;
+    margin-top: 0px;
+    display: flex;
+
+
   }
 
-  .top-container h2{
+  .top-container h2 {
     margin-top: 16px;
   }
 
@@ -570,13 +575,7 @@ footer {
   .search-bar {
     display: flex;
     justify-content: center;
-    height: 50px;
-    margin: 0;
-    margin-top: 35px;
-  }
-
-  .search-icon {
-    padding: 20px;
+    margin: 36px 0px 0px 0px;
   }
 
   .search-imput {
@@ -611,7 +610,7 @@ footer {
 
   /*------- Filtres - 768px -------*/
   .filter {
-    margin: 10% 0%;
+    margin: 25px 0px;
   }
 
   .button-filters {
@@ -636,7 +635,7 @@ footer {
   }
 
   .informations {
-    padding: 32px 0;
+    margin-top: 25px;
   }
 
   /*------- Hebergements And Populaires - 768px -------*/
