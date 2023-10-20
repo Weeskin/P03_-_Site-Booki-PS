@@ -28,7 +28,7 @@ body {
   width: auto;
   max-width: 1440px;
   margin: auto;
-  padding: 0% 3%;
+  padding: 16px 32px;
   box-sizing: border-box;
 }
 
@@ -96,7 +96,7 @@ nav ul {
 }
 
 nav ul li {
-  padding-top: 8px;
+  padding-top: 16px;
 }
 
 nav ul li a {
@@ -112,6 +112,7 @@ nav ul li:hover {
 .top-container {
   display: flex;
   flex-direction: column;
+  margin-top: 50px;
 }
 
 .top-container h2 {
@@ -216,7 +217,7 @@ nav ul li:hover {
 .informations {
   display: flex;
   align-items: center;
-  margin: 1.5% 0%;
+  padding: 32px 0;
 }
 
 .informations i {
@@ -402,17 +403,13 @@ footer {
 
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
-  body {
-    width: auto;
-  }
-
   /*------- Header - 1024px -------*/
   nav {
     width: 27%;
   }
 
   nav ul li {
-    padding: 1% 20px;
+    padding: 16px 0px;
   }
 
   /*------- Top Container - 1024px  -------*/
@@ -442,7 +439,7 @@ footer {
   }
 
   .informations {
-    margin: 4% 0%;
+    padding: 32px 0;
   }
 
   /*------- Hebergements And Populaires - 1024px  -------*/
@@ -562,13 +559,20 @@ footer {
   /*------- Top Container - 768px -------*/
   .top-container {
     padding: 0% 5%;
+    margin-top: 0;
+  }
+
+  .top-container h2{
+    margin-top: 16px;
   }
 
   /*------- Search bar - 768px -------*/
   .search-bar {
     display: flex;
     justify-content: center;
-    height: 40px;
+    height: 50px;
+    margin: 0;
+    margin-top: 35px;
   }
 
   .search-icon {
@@ -576,7 +580,7 @@ footer {
   }
 
   .search-imput {
-    width: 70%;
+    flex: 1;
   }
 
   .search-imput::placeholder {
@@ -632,7 +636,7 @@ footer {
   }
 
   .informations {
-    margin: 8% 0%;
+    padding: 32px 0;
   }
 
   /*------- Hebergements And Populaires - 768px -------*/
